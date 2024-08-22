@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+    font-family: "Cairo" , sans-serif ;    
+}
+.container {
+    margin: auto  3% !important;
+  
+}
+.introHeader{
+    background-color: ;
+    height: 80vh;
+    margin-bottom:200px;
+    position: relative;
+}
+.container .col{
+    background-color: ;
+}
+.container .col-container {
+    padding: 120px 100px 0 20px;
+}
+.container .col-container p {
+    font-size: 2rem; font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.butn-custome {
+    background-color: #FEA930 !important;
+    border: none !important;
+    padding: 10px 30px!important;
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    border-radius: 30px !important;
+}
+
+.poly-container{
+    background-color: #FEA930;
+    padding: 15px;
+    border-radius: 50%;
+}
+.second-btn-container {
+    margin-left:30px;
+}
+.poly-container img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 4px;
+}
+.second-btn{
+    background-color: #fff !important;
+    color: black !important;
+    border: #FEA930 !important;
+    padding: 10px 30px!important;
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    border-radius: 30px !important;
+}
+
+/* hover items */
+.join-hover:hover {
+    background-color: #fff !important;
+    color: #FEA930 !important;
+    transition: .9s;
+}
+.span-hover:hover  .poly-container  img 
+    {
+        position: relative;
+        animation: mover2 .9s infinite ease-in-out ;
+    }
+.span-hover:hover .second-btn {
+    background-color: #FEA930 !important;
+    color: #fff !important;
+    transition: .5s;
+}
+.mover1 {
+    position: relative;
+    animation: move1 1s ease-in-out ;
+}
+@keyframes move1 {
+    0% {
+        left: -400px;
+    }
+    50%{
+        left: 70px;
+    }
+    100% {
+        left: 0;
+    }
+}
+@keyframes mover2 {
+    0% {
+        scale: 0.8;
+    }
+    100% {
+        scale:1.1;
+    }
+}
+/* right side */
+.second-container {
+    position: relative;
+    animation: move3 .9 infinite ease-in-out ;
+}
+.second-container .prsn{
+    width: 120%;
+    position: relative;
+    animation: move3 1.2s  ease-in-out ;
+}
+@keyframes move3 {
+    0%{
+        right: -500px;
+    }
+    50%{ right: 100px;}
+    100% { right: 0px;}
+}
+
+.second-container .Grp {
+   
+    position: relative;
+    top: -500px;
+}
+.second-container .grp1 {
+    left: 90px;
+    animation: firstGrp .8s ease-in-out;
+}
+.second-container .grp2 {
+    left: -150px;
+    top: -450px;
+    animation: firstGrp .8s ease-in-out;
+    
+}
+.second-container .grp3 {
+    left: 230px;
+}
+.second-container .grp4 {
+    left: -200px;
+    top: -450px;
+}
+@keyframes firstGrp {
+   0%{top: -1500px;}
+   50%{top: -200px;}
+   100%{
+    top: ;
+   }
+}

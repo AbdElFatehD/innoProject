@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+    font-family: "Cairo" , sans-serif ;    
+}
+.container1 {
+   
+    margin: auto  3%  !important;
+    margin-bottom: 300px !important;
+}
+.container1 .col {
+    background-color: #fff;
+    margin: 0 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.container1 .col .number {
+    font-size: 5rem;
+    color: #FEA930;
+}
+.container1 .col .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FEA930;
+}
+.container1 .col:hover{
+    cursor: pointer;
+    scale: 1.2;
+    transition: .5s;
+    z-index: 100;
+    
+}
+.container1 .main-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FEA930;
+    margin-bottom: 100px;
+}

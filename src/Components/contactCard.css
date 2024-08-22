@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+    font-family: "Cairo" , sans-serif ;    
+}
+.container7 {
+    box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19)
+}
+.container7 .row1 .col1{
+    padding:30px 0 0 0;
+}
+.container7 .row {
+    margin-bottom: 70px;
+}
+.container7 .row1 .left{
+    float: left;
+    margin: 0 0 0 80px;
+}
+.container7 .row1 .logo-container{
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+.container7 .row1 .slash::before{
+    content: "";
+}
+.container7 .row1 .slash {
+    margin: 0 10px;
+    border-left: 1px solid black;
+}
+.container7  .row1 .col2  .right{
+    float: right;
+    margin: 0 100px 0 0;
+}
+.container7 .row1 .col2 button{
+    border:none;
+    margin:10px 10px;
+}
+.container7 .row2 .col .title {
+    color: #3C4242;
+     
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+.container7 .row2 .input {
+    font-size: 1rem;
+    padding: 10px 100px 10px 10px;
+    border-radius: 40px;
+    margin-right: 20px;
+} 
+.container7 .row2 .btn{
+    font-weight: bold;
+    font-size: 20px;
+    padding:10px 50px;
+    border-radius: 40px;
+    background-color: #3C4242;
+}
+.container7 .row2 .btn:hover{
+    background-color: #FEA930;
+    color:#3C4242;
+    border:none;
+}
+.container7 .row3 a {
+    display: inline-block;
+    text-decoration: none;
+    color: #9c9c9c;
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+.container7 .row3 .link2::before{
+    content: "|";
+    margin: 20px;
+}
+.container7 .row3 .link3::before{
+    content: "|";
+    margin: 20px;
+}
+.container7 .footer p{
+    font-size: 1.2rem;
+    color: #9c9c9c;
+}
