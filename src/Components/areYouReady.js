@@ -25,7 +25,7 @@ function AreYouReady () {
                     </p>
                 </Col>  
                 <Col className='col1 col col2'  data-aos="fade-left">
-                    <span>
+                    <span className='ready'>
                         <img src={areyou}/>;
                     </span>
                 </Col>

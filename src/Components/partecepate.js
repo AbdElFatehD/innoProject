@@ -18,7 +18,7 @@ function Partecepate() {
                     <p className='title'>طريقة المشاركة</p>
                     <p className='descreption' >TOTC’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
                 </Col>
-                <Col className='col' data-aos='fade-left'><img src={Partici}/></Col>
+                <Col className='col' data-aos='fade-left'><img className='part-img' src={Partici}/></Col>
             </Row>
           </div>
     );

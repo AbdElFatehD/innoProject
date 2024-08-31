@@ -32,9 +32,8 @@ function Introheader(){
                 <Col className='col'>
                     <div className='second-container'>
                             <img src={Persn} className='prsn mover3'/>
-                            
                             <span className='Grp grp2'>
-                                <img src={Grp2}/>
+                            <img src={Grp2}/>
                             </span>
                             <span className='Grp grp1'>
                                 <img src={Grp1}/>

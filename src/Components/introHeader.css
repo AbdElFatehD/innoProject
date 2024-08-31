@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 
 *{
@@ -57,7 +59,6 @@
     border-radius: 30px !important;
 }
 
-/* hover items */
 .join-hover:hover {
     background-color: #fff !important;
     color: #FEA930 !important;
@@ -96,7 +97,6 @@
         scale:1.1;
     }
 }
-/* right side */
 .second-container {
     position: relative;
     animation: move3 .9 infinite ease-in-out ;
@@ -105,6 +105,7 @@
     width: 120%;
     position: relative;
     animation: move3 1.2s  ease-in-out ;
+    display: block;
 }
 @keyframes move3 {
     0%{
@@ -142,4 +143,122 @@
    100%{
     top: ;
    }
+}
+
+
+@media (max-width: 1200px) {
+    .container .col-container {
+        padding: 80px 50px 0 10px;
+    }
+
+    .container .col-container p {
+        font-size: 1.5rem;
+        margin-bottom: 60px;
+    }
+
+    .butn-custome {
+        font-size: 1.3rem !important;
+    }
+
+    .second-btn {
+        font-size: 1.3rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .introHeader {
+        height: 70vh;
+        margin-bottom: 150px;
+    }
+
+    .container .col-container {
+        padding: 60px 30px 0 10px;
+    }
+
+    .container .col-container p {
+        font-size: 1.3rem;
+        margin-bottom: 50px;
+    }
+
+    .butn-custome, .second-btn {
+        font-size: 1.2rem !important;
+        padding: 8px 25px !important;
+    }
+
+    .poly-container img {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .introHeader {
+        height: 60vh;
+        margin-bottom: 100px;
+    }
+
+    .container .col-container {
+        padding: 40px 20px 0 5px;
+    }
+
+    .container .col-container p {
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+    }
+
+    .butn-custome, .second-btn {
+        font-size: 1.1rem !important;
+        padding: 6px 20px !important;
+    }
+
+    .poly-container img {
+        height: 20px;
+        width: 20px;
+    }
+    .second-container .prsn{
+        width: 90%;
+        position: relative;
+        animation: move3 1.2s  ease-in-out ;
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .introHeader {
+        height: 50vh;
+        margin-bottom: 50px;
+    }
+
+    .container .col-container {
+        padding: 20px 10px 0 5px;
+    }
+
+    .container .col-container p {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .butn-custome, .second-btn {
+        font-size: 1rem !important;
+        padding: 5px 15px !important;
+    }
+
+    .poly-container img {
+        height: 15px;
+        width: 15px;
+    }
+    .second-container .prsn{
+        width: 90%;
+        position: relative;
+        animation: move3 1.2s  ease-in-out ;
+        display: block;
+        margin-top: 100px;
+    }
+    .second-container .grp3 img{
+        
+    }
+   .second-container .grp4 img{
+        width: 180px;
+    }
+   
 }

@@ -19,7 +19,7 @@
 
 .image-container img {
     width: 80vh;
-    position: fixed;
+    position: ;
     left: 2rem;
 }
 .btn-container {
@@ -101,4 +101,97 @@
 }
 .hidden{
     display: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: auto;
+        padding: 0 2%;
+    }
+
+    .row1 .col2 {
+        padding: 30px;
+    }
+
+    .image-container img {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .btn-container {
+        padding: 10px 20px;
+    }
+
+    .btn-container button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .row1 .col .description {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+
+    .row1 .col .label {
+        font-size: 1rem;
+    }
+
+    .row1 .col2 .styled-input {
+        padding: 10px;
+        font-size: 0.9rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .login-button {
+        font-size: 1.2rem;
+    }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (max-width: 576px) {
+    .container {
+        width: auto;
+        padding: 0 1%;
+    }
+  
+    .row1 .col2 {
+        padding: 20px;
+    }
+
+    .image-container img {
+        width: 100%;
+        max-width: none;
+    }
+
+    .btn-container {
+        padding: 8px 15px;
+    }
+
+    .btn-container button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .row1 .col .description {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+
+    .row1 .col .label {
+        font-size: 0.9rem;
+    }
+
+    .row1 .col2 .styled-input {
+        padding: 8px;
+        font-size: 0.8rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .login-button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    
 }
