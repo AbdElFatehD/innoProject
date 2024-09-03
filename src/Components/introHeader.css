@@ -6,24 +6,34 @@
     font-family: "Cairo" , sans-serif ;    
 }
 .container {
-    margin: auto  3% !important;
+    margin: auto 0% !important;
   
 }
 .introHeader{
-    background-color: ;
+    /* background-color: ; */
     height: 80vh;
-    margin-bottom:200px;
+    margin-bottom:280px;
     position: relative;
+    margin-left: 3rem;
 }
 .container .col{
-    background-color: ;
+    /* background-color: ; */
 }
 .container .col-container {
-    padding: 120px 100px 0 20px;
+    padding: 0px 100px 0 2px;
+    margin-top: -5rem;
+    margin-right: 10rem;
 }
 .container .col-container p {
     font-size: 2rem; font-weight: bold;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
 }
 
 .butn-custome {
@@ -41,7 +51,7 @@
     border-radius: 50%;
 }
 .second-btn-container {
-    margin-left:30px;
+    /* margin-left:30px; */
 }
 .poly-container img{
     height: 30px;
@@ -141,7 +151,7 @@
    0%{top: -1500px;}
    50%{top: -200px;}
    100%{
-    top: ;
+   
    }
 }
 
@@ -240,7 +250,7 @@
 
     .butn-custome, .second-btn {
         font-size: 1rem !important;
-        padding: 5px 15px !important;
+        padding: 5px 5px !important;
     }
 
     .poly-container img {

@@ -2,12 +2,13 @@
 
 *{
     font-family: "Cairo" , sans-serif ;    
+    /* margin-left: 0; */
 }
 .container6 {
-    margin: auto  3% !important;
+    margin: auto  !important;
     margin-bottom:200px !important;
     
-    
+    /* margin-left: 2rem; */
 }
 
 .container6 .row .col .title {
@@ -37,7 +38,7 @@
         padding: 30px 50px;
     }
     .col .ready img{
-        width: 500px;
+        width: 300px;
     }
 }
 

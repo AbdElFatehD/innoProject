@@ -9,7 +9,9 @@ import Button from "react-bootstrap/Button";
 
 function ParticiGrps () {
     useEffect(()=> {
-        AOS.init({duration:2000});
+        AOS.init({duration:2000,
+          once:true,
+        });
     }, []);
     return(
         <div className='container3'>

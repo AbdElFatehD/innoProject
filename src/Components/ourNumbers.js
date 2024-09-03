@@ -6,14 +6,16 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 function OurNumbers () {
     useEffect(()=> {
-        AOS.init({duration:2000});
+        AOS.init({duration:2000,
+          once:true,
+        });
     }, []);
-    
     return(
     
-            <div className='container1'>
-                <Row>
-                    <p className='main-title' data-aos="zoom-in-right">ارقامنا</p>
+            <div className='container1 col'>
+                <p className='main-title' data-aos="zoom-in-right">ارقامنا</p>
+                <div className='rowcard m-0' >
+                    
                    <Col className='col' data-aos="zoom-in">
                     <p className='number'>15k+</p>
                    <p className='title'>منافس</p>
@@ -34,7 +36,7 @@ function OurNumbers () {
                     <p className='number'>5k+</p>
                    <p className='title'>مرشد</p>
                    </Col>
-              </Row>
+              </div>
             </div>
       
     );

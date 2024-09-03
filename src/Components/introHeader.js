@@ -15,19 +15,19 @@ function Introheader(){
        
          <div className='introHeader'>
              <div className='container'>
-             <Row>
-                <Col className='col col-container mover1'>
+             <div className='row justify-content-between w-100'>
+                <div className='col col-container mover1 p-0'>
                     <p> الانضمام إلى المجتمعات الإبداعية والاستكشافية لتبادل الأفكار والخبرات، والمساهمة في حل تحديات التحول الرقمي في مختلف القطاعات والمشاريع النوعية.</p>  
-                    <Row>
-                        <Col className='col'>
+                    <div className='row flex-nowrap w-100' >
+                        <div className='row flex-nowrap '>
                             <Button className='butn-custome join-hover'>Join for free</Button>
                             <span className='second-btn-container span-hover'>
                                 <span className='poly-container'><img src={Poly} /></span>
                                 <Button className='second-btn'>Wath How It Works</Button>
                             </span>
-                            </Col>
-                    </Row>
-                </Col>
+                            </div>
+                    </div>
+                </div>
                 
                 <Col className='col'>
                     <div className='second-container'>
@@ -46,7 +46,7 @@ function Introheader(){
                             </span>
                     </div>
                 </Col>
-            </Row>
+            </div>
             </div>
         </div>
     );

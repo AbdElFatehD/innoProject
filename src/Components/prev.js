@@ -14,7 +14,9 @@ import comp3 from "./imgs/comp3.png";
 
 function Prev() {
     useEffect(()=> {
-        AOS.init({duration:2000});
+        AOS.init({duration:2000,
+          once:true,
+        });
     }, []);
     return(
         <div className='container4'>

@@ -10,7 +10,9 @@ import areyou from'./imgs/areyou.png';
 
 function AreYouReady () {
     useEffect(()=> {
-        AOS.init({duration:2000});
+        AOS.init({duration:2000,
+          once:true,
+        });
     }, []);
     return (
        <div className='container6'>

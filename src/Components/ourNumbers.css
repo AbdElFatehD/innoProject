@@ -1,20 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 
 *{
-    font-family: "Cairo" , sans-serif ;    
+    font-family: "Cairo" , sans-serif ; 
+    /* background-color: aqua;    */
+    max-width: 90vw;
 }
 .container1 {
-    margin: auto  3%  !important;
+    /* margin: auto    !important; */
     margin-bottom: 300px !important;
+    width: 90vw;
+    /* background: #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 3rem;
+    
+}
+.container1 .rowcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 .container1 .col {
     background-color: #fff;
     margin: 0 10px;
     border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 20vw;
 }
 .container1 .col .number {
-    font-size: 5rem;
+    font-size: 2rem;
     color: #FEA930;
 }
 .container1 .col .title {
